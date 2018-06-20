@@ -2,7 +2,180 @@
 
 /* --- YOUR CODE STARTS HERE --- */
 
+p {
+  margin: 0;
+}
 
+.o-frame {
+  position: relative;
+  height: 620px;
+  width: 360px;
+  margin: 0 auto;
+  border: 1px solid #C4C4C4;
+  font-family: 'Roboto', sans-serif;
+}
+
+.m-header {
+  display: flex;
+  height: 45px;
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.m-header__title {
+  flex-grow: 1;
+}
+
+.m-header__title h1 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 45px;
+}
+
+.m-header a {
+  height: 45px;
+  padding: 0 12px;
+  color: #000000;
+  font-size: 14px;
+}
+
+.m-header__back {
+  line-height: 52px;
+}
+
+.m-header__back .fa-angle-left {
+  font-size: 30px;
+}
+
+.m-header__reload {
+  line-height: 45px;
+}
+
+.m-footer {
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  line-height: 45px;
+  width: 100%;
+  padding: 0 12px;
+  background-color: #F9F9F9;
+  border-top: 1px solid #eeeeee;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.m-footer a {
+  padding: 0 10px;
+  color: #000000;
+}
+
+.o-flow {
+  height: 530px;
+  overflow: auto;
+}
+
+.m-post  {
+  padding-bottom: 20px;
+}
+
+.m-post__header {
+  display: flex;
+  height: 50px;
+  padding: 0 12px;
+  align-items: center;
+}
+
+.m-post__avatar img {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.m-post__info {
+  margin-left: 12px;
+}
+
+.m-post__info p {
+  margin: 0;
+  line-height: 15px;
+  text-align: left;
+}
+
+.m-post__info a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.m-post__info .fa {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.m-post__author {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.m-post__location {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.m-post__more {
+  margin-left: auto;
+  color: #000000;
+}
+
+.m-post__image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.m-post__actions {
+  display: flex;
+  height: 45px;
+  padding: 0 12px;
+  align-items: center;
+}
+
+.m-post__actions a {
+  color: #000000;
+}
+
+.m-post__actions a:nth-child(n + 2):nth-child(-n + 3) {
+  margin-left: 15px;
+}
+
+.m-post__actions a:last-child {
+  margin-left: auto;
+}
+
+.m-post__likes {
+  padding: 0 12px;
+  font-size: 13px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.m-post__content {
+  padding: 0 12px;
+  margin-top: 5px;
+}
+
+.m-post__content p {
+  font-size: 13px;
+  text-align: left;
+}
+
+.m-post__content a {
+  text-decoration: none;
+  color: #2D4C72;
+}
 
 
 
